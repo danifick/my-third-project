@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my-third-project To Do App</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -16,8 +16,59 @@
 </div>
 
 <main class="todo__app">
- <h1>TODO</h1>
-</main>
+ <div class="todo__container">
+    <div class="todo__header">
+        <h1>TODO</h1>
+        <button class="todo__theme-toggle"></button>
+    </div>
+
+    <div class="todo__input-wrapper">
+        <span></span>
+        <input class="todo__input" type="text" placeholder="Creat a new todo">
+    </div>
+
+
+    <div class="todo__list-wrapper">
+        <ul class="todo__list">
+
+          <li class="todo__item   todo__item--completed">
+            <span class="todo__checkbox-circle"></span>
+            <p class="todo__text">Complete online JavaScript course</p>
+          </li>  
+
+          <li class="todo__item">
+            <span class="todo__checkbox-circle"></span>
+            <p class="todo__text">Jog around the park 3x</p>
+          </li> 
+
+
+          <li class="todo__item">
+            <span class="todo__checkbox-circle"></span>
+            <p class="todo__text">10 minutes meditation</p>
+          </li> 
+
+          <li class="todo__item">
+            <span class="todo__checkbox-circle"></span>
+            <p class="todo__text">Read for 1 hour</p>
+          </li> 
+
+          <li class="todo__item">
+            <span class="todo__checkbox-circle"></span>
+            <p class="todo__text">Pick up groceries</p>
+          </li> 
+
+            <li class="todo__item">
+            <span class="todo__checkbox-circle"></span>
+            <p class="todo__text">Complete Todo App on Frontend Mentor</p>
+          </li> 
+
+        </ul> <!-- todo__list-->
+    </div> <!-- todo__list-wrapper-->
+
+
+
+ </div> <!-- todo__container-->
+</main> <!-- todo__app-->
 
 <script src="script.js"></script>    
 </body>
