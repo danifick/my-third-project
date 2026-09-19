@@ -16,3 +16,19 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.todo__container {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 24px;
+    margin-top: -150px;
+}
+
+
+.todo__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
