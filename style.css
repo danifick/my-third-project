@@ -34,3 +34,18 @@ body {
     align-items: center;
     margin-bottom: 30px;
 }
+
+.todo__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 12px;
+}
+
+
+.todo__input {
+    width: 100%;
+    background-color: hsl(235, 24%, 19%);
+    border: none;
+    outline: none;
+}
