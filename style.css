@@ -48,4 +48,15 @@ body {
     background-color: hsl(235, 24%, 19%);
     border: none;
     outline: none;
+    color: #fff;
+
+    padding: 20px 24px;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.todo__input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(233, 14%, 35%);
 }
