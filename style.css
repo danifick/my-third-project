@@ -49,6 +49,8 @@ body {
     padding: 20px 24px;
     width: 100%;
     gap: 12px;
+
+    margin-bottom: 30px;
 }
 
 
@@ -76,4 +78,25 @@ body {
     display: block;
     border-radius: 50%;
     flex-shrink: 0;
+}
+
+
+
+
+.todo__list {
+    list-style: none;
+}
+
+.todo__list-wrapper {
+    background-color: hsl(235, 24%, 19%);
+
+    margin-bottom: 50px;
+}
+
+
+.todo__item {
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 12px;
 }
