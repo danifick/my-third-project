@@ -99,4 +99,26 @@ body {
     align-items: center;
     padding: 20px 24px;
     gap: 12px;
+    border-bottom: 1px solid hsl(237, 14%, 26%);
 }
+
+
+.todo__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+
+.todo__button {
+    background: transparent;
+    border: none;
+}
+
+
+.todo__clear {
+    background: transparent;
+    border: none;
+}
+
