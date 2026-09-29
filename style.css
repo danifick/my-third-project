@@ -41,6 +41,21 @@ body {
     letter-spacing: 12px;
 }
 
+.todo__theme-toggle {
+    width: 26px;
+    height: 26px;
+    background-image: url('images/icon-sun.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+
+}
+
+
+
+
 .todo__input-wrapper {
     display: flex;
     align-items: center;
@@ -160,5 +175,12 @@ body {
     border-radius: 50%;
     flex-shrink: 0;
     cursor: pointer;
+}
+
+.todo__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(235, 16%, 43%);
+    text-align: center;
 }
 
