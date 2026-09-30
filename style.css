@@ -184,3 +184,18 @@ body {
     text-align: center;
 }
 
+
+.todo__text--completed {
+    text-decoration: line-through;
+    color: hsl(235, 16%, 43%);
+}
+
+
+.todo__item--completed .todo__checkbox-circle {
+    background-image: url('images/icon-check.svg'), linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%)); 
+    background-repeat: no-repeat;
+    background-position: center;
+     
+}
+
+
