@@ -104,7 +104,8 @@ body {
 
 .todo__list-wrapper {
     background-color: hsl(235, 24%, 19%);
-
+    box-shadow: 0 35px 50px -15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
     margin-bottom: 50px;
 }
 
