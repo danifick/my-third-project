@@ -74,9 +74,10 @@ body {
    background: transparent;
    border: none;
    outline: none;
-   color: #fff;
+   color: hsl(234, 39%, 85%);
    width: 100%;
    gap: 12px;
+   font-family: "Josefin Sans", sans-serif;
 }
 
 .todo__input::placeholder {
@@ -128,7 +129,7 @@ body {
 }
 
 .todo__count {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     color: hsl(235, 16%, 43%);
 }
@@ -139,15 +140,17 @@ body {
     border: none;
     cursor: pointer;
 
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     color: hsl(235, 16%, 43%);
     font-family: "Josefin Sans", sans-serif;
+    transition: color 0.3s ease;
     
 }
 
 .todo__button--active {
     color: hsl(220, 98%, 61%);
+    font-weight: 700;
 }
 
 
@@ -156,14 +159,15 @@ body {
     border: none;
     cursor: pointer;
 
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     color: hsl(235, 16%, 43%);
     font-family: "Josefin Sans", sans-serif;
+    transition: color 0.3s ease;
 }
 
 .todo__text {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     color: hsl(234, 39%, 85%);
 }
@@ -197,6 +201,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
      
+}
+
+.todo__button:not(.todo__button--active):hover,
+.todo__clear:hover {
+    color: hsl(236, 33%, 92%);
 }
 
 
