@@ -222,4 +222,8 @@ background-origin: padding-box, border-box;
     color: hsl(236, 33%, 92%);
 }
 
+.todo__cross {
+    margin-left: auto;
+}
+
 
