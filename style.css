@@ -64,8 +64,6 @@ body {
     padding: 20px 24px;
     width: 100%;
     gap: 12px;
-    
-
     margin-bottom: 30px;
 }
 
@@ -77,6 +75,7 @@ body {
    color: hsl(234, 39%, 85%);
    width: 100%;
    font-family: "Josefin Sans", sans-serif;
+   height: 24px;
 }
 
 .todo__input::placeholder {
