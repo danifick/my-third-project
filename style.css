@@ -24,7 +24,7 @@ body {
 .todo__container {
     width: 100%;
     max-width: 540px;
-    margin: -150px auto 0 auto;
+    margin: -330px auto 0 auto;
 }
 
 
@@ -39,7 +39,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     color: #fff;
-    letter-spacing: 12px;
+    letter-spacing: 15px;
 }
 
 .todo__theme-toggle {
@@ -51,6 +51,7 @@ body {
     background-position: center;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 
 }
 
