@@ -149,6 +149,12 @@ body {
     
 }
 
+
+.todo__buttons {
+    display: flex;
+    gap: 15px;
+}
+
 .todo__button--active {
     color: hsl(220, 98%, 61%);
     font-weight: 700;
