@@ -7,6 +7,6 @@ if (event.key === "Enter") {
     const newTodo = document.createElement("li") 
     newTodo.classList.add("todo__item")
     newTodo.textContent = todoInput.value
-    todoList.append(newTodo.textContent)
+    todoList.append(newTodo)
 }
 })
