@@ -8,5 +8,6 @@ if (event.key === "Enter") {
     newTodo.classList.add("todo__item")
     newTodo.textContent = todoInput.value
     todoList.append(newTodo)
+    todoInput.value = ""
 }
 })
