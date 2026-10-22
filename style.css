@@ -231,6 +231,11 @@ background-origin: padding-box, border-box;
 
 .todo__cross {
     margin-left: auto;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
+.todo__item:hover .todo__cross {
+    opacity: 1;
+}
 
