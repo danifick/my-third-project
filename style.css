@@ -239,3 +239,8 @@ background-origin: padding-box, border-box;
     opacity: 1;
 }
 
+.todo__item--completed .todo__text {
+    text-decoration: line-through;
+    color: hsl(235, 16%, 43%);
+}
+

@@ -16,4 +16,7 @@ todoList.addEventListener("click" , function(c) {
   if (c.target.classList.contains("todo__cross")) {
     c.target.parentElement.remove()
   }
+  if(c.target.classList.contains("todo__checkbox-circle")) {
+    c.target.parentElement.classList.toggle("todo__item--completed")
+  }
 })
