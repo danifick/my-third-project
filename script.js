@@ -1,6 +1,6 @@
 const todoInput = document.querySelector(".todo__input")
 const todoList = document.querySelector(".todo__list")
-
+const todoCount = document.querySelector(".todo__count")
 
 todoInput.addEventListener("keydown" , function(event) {
 if (event.key === "Enter") {
@@ -16,7 +16,16 @@ todoList.addEventListener("click" , function(c) {
   if (c.target.classList.contains("todo__cross")) {
     c.target.parentElement.remove()
   }
+
   if(c.target.classList.contains("todo__checkbox-circle")) {
     c.target.parentElement.classList.toggle("todo__item--completed")
   }
+
+  const allItmes = document.querySelectorAll(".todo__item").length
+  const complItems = document.querySelectorAll(".todo__item--completed").length
+
+ todoCount.innerHTML = allItmes - complItems + " items left "
+
+
+
 })
