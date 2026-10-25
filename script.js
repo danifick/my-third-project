@@ -9,6 +9,9 @@ if (event.key === "Enter") {
     newTodo.innerHTML = `<span class="todo__checkbox-circle"></span> <p class = "todo__text"> ${todoInput.value} </p> <img class="todo__cross" src="images/icon-cross.svg" alt="">`
     todoList.append(newTodo)
     todoInput.value = ""
+  const allItmes = document.querySelectorAll(".todo__item").length
+  const complItems = document.querySelectorAll(".todo__item--completed").length
+  todoCount.innerHTML = allItmes - complItems + " items left "
 }
 })
 
@@ -23,8 +26,7 @@ todoList.addEventListener("click" , function(c) {
 
   const allItmes = document.querySelectorAll(".todo__item").length
   const complItems = document.querySelectorAll(".todo__item--completed").length
-
- todoCount.innerHTML = allItmes - complItems + " items left "
+  todoCount.innerHTML = allItmes - complItems + " items left "
 
 
 
