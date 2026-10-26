@@ -78,6 +78,7 @@ body {
    width: 100%;
    font-family: "Josefin Sans", sans-serif;
    height: 24px;
+   font-size: 18px;
 }
 
 .todo__input::placeholder {
