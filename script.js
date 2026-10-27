@@ -1,6 +1,7 @@
 const todoInput = document.querySelector(".todo__input")
 const todoList = document.querySelector(".todo__list")
 const todoCount = document.querySelector(".todo__count")
+const filterButtons = document.querySelectorAll(".todo__button")
 
 todoInput.addEventListener("keydown" , function(event) {
 if (event.key === "Enter") {
