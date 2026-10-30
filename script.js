@@ -35,6 +35,6 @@ todoList.addEventListener("click" , function(c) {
 
 filterButtons.forEach(btn => {
 btn.addEventListener("click" , function() {
-
+currentFilter = btn.textContent.toLowerCase()
 })
 })
