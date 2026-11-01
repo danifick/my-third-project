@@ -43,6 +43,14 @@ filterTasks()
 function filterTasks () {
   const todoItems = document.querySelectorAll(".todo__item")
   todoItems.forEach(item => {
+   if ( currentFilter === "completed" && !item.classList.contains("todo__item--completed") )  {
+    item.style.display = "none"
+   }
+
+   if ( currentFilter === "active" && item.classList.contains("todo__item--completed")) {
+    item.style.display = "none"
+   }
+   
 
   })
 }
