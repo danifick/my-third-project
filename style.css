@@ -154,6 +154,7 @@ body {
 .todo__buttons {
     display: flex;
     gap: 15px;
+   
 }
 
 .todo__button--active {
@@ -237,6 +238,10 @@ background-origin: padding-box, border-box;
 .todo__item--completed .todo__text {
     text-decoration: line-through;
     color: hsl(235, 16%, 43%);
+}
+
+.todo__buttons {
+     transition: all 0.3s;
 }
 
 
