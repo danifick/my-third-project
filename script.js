@@ -15,6 +15,7 @@ if (event.key === "Enter") {
   const allItmes = document.querySelectorAll(".todo__item").length
   const complItems = document.querySelectorAll(".todo__item--completed").length
   todoCount.innerHTML = allItmes - complItems + " items left "
+  filterTasks()
 }
 })
 
@@ -30,6 +31,7 @@ todoList.addEventListener("click" , function(c) {
   const allItmes = document.querySelectorAll(".todo__item").length
   const complItems = document.querySelectorAll(".todo__item--completed").length
   todoCount.innerHTML = allItmes - complItems + " items left "
+  filterTasks()
 })
 
 
