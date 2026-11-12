@@ -7,6 +7,9 @@ let currentFilter = "all"
 
 todoInput.addEventListener("keydown" , function(event) {
 if (event.key === "Enter") {
+  if (todoInput.value.trim() === "") {
+   return 
+  }
     const newTodo = document.createElement("li") 
     newTodo.classList.add("todo__item")
     newTodo.innerHTML = `<span class="todo__checkbox-circle"></span> <p class = "todo__text"> ${todoInput.value} </p> <img class="todo__cross" src="images/icon-cross.svg" alt="">`
