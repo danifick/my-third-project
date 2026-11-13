@@ -3,6 +3,7 @@ const todoList = document.querySelector(".todo__list")
 const todoCount = document.querySelector(".todo__count")
 const filterButtons = document.querySelectorAll(".todo__button")
 const todoClear = document.querySelector(".todo__clear")
+const todoTheme = document.querySelector(".todo__theme-toggle")
 let currentFilter = "all"
 
 todoInput.addEventListener("keydown" , function(event) {
@@ -75,3 +76,7 @@ itemсompl.remove()
 const allItmes = document.querySelectorAll(".todo__item").length
 const complItems = document.querySelectorAll(".todo__item--completed").length
 todoCount.innerHTML = allItmes - complItems + " items left "
+
+todoTheme.addEventListener("click", function() {
+document.body.classList.toggle("light")
+})

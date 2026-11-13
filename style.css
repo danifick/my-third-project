@@ -251,5 +251,26 @@ background-origin: padding-box, border-box;
      transition: all 0.4s;
 }
 
+body.light {
+    background-color: hsl(0, 0%, 98%);
+}
+
+body.light .img__wrapper {
+    background-image: url('images/bg-desktop-light.jpg');
+}
+
+body.light .todo__theme-toggle {
+    background-image: url('images/icon-moon.svg');
+
+}
+
+body.light .todo__input-wrapper {
+    background-color: #fff;
+}
+
+body.light .todo__list-wrapper {
+    background-color: #fff;
+}
+
 
 
