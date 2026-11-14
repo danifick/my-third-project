@@ -272,5 +272,10 @@ body.light .todo__list-wrapper {
     background-color: #fff;
 }
 
+body.light .todo__checkbox-circle {
+    background: #fff;
+    border-color: hsl(233, 11%, 84%);
+}
+
 
 
