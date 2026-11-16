@@ -291,5 +291,9 @@ body.light .todo__item--completed .todo__checkbox-circle {
     background-position: center;
 }
 
+body.light .todo__item {
+    border-bottom: 1px solid hsl(234, 39%, 85%);
+}
+
 
 
