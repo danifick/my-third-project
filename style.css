@@ -293,7 +293,11 @@ body.light .todo__item--completed .todo__checkbox-circle {
 
 body.light .todo__item {
     border-bottom: 1px solid hsl(234, 39%, 85%);
+    
 }
 
+body.light .todo__text {
+    color: hsl(235, 19%, 35%);
+}
 
 
