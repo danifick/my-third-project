@@ -300,4 +300,15 @@ body.light .todo__text {
     color: hsl(235, 19%, 35%);
 }
 
+body.light .todo__input {
+    color: hsl(235, 19%, 35%);
+}
+
+body.light .todo__item--completed .todo__text {
+    color: hsl(233, 11%, 84%);
+}
+
+body.light .input__checkbox {
+    border-color: hsl(233, 11%, 84%);
+}
 
