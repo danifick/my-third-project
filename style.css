@@ -312,3 +312,7 @@ body.light .input__checkbox {
     border-color: hsl(233, 11%, 84%);
 }
 
+body.light .todo__input::placeholder {
+    color: hsl(236, 9%, 61%);
+}
+
