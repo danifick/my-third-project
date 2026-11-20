@@ -16,9 +16,7 @@ if (event.key === "Enter") {
     newTodo.innerHTML = `<span class="todo__checkbox-circle"></span> <p class = "todo__text"> ${todoInput.value} </p> <img class="todo__cross" src="images/icon-cross.svg" alt="">`
     todoList.append(newTodo)
     todoInput.value = ""
-  const allItmes = document.querySelectorAll(".todo__item").length
-  const complItems = document.querySelectorAll(".todo__item--completed").length
-  todoCount.innerHTML = allItmes - complItems + " items left "
+  updateItems()
   filterTasks()
 }
 })
@@ -32,9 +30,7 @@ todoList.addEventListener("click" , function(c) {
     c.target.parentElement.classList.toggle("todo__item--completed")
   }
 
-  const allItmes = document.querySelectorAll(".todo__item").length
-  const complItems = document.querySelectorAll(".todo__item--completed").length
-  todoCount.innerHTML = allItmes - complItems + " items left "
+  updateItems()
   filterTasks()
 })
 
@@ -73,10 +69,14 @@ itemсompl.remove()
 })
 })
 
-const allItmes = document.querySelectorAll(".todo__item").length
-const complItems = document.querySelectorAll(".todo__item--completed").length
-todoCount.innerHTML = allItmes - complItems + " items left "
+updateItems()
 
 todoTheme.addEventListener("click", function() {
 document.body.classList.toggle("light")
 })
+
+function updateItems() {
+const allItmes = document.querySelectorAll(".todo__item").length
+const complItems = document.querySelectorAll(".todo__item--completed").length
+todoCount.innerHTML = allItmes - complItems + " items left "
+}
