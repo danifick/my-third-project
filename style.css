@@ -316,6 +316,6 @@ body.light .todo__input::placeholder {
     color: hsl(236, 9%, 61%);
 }
 
-body.light .todo__button:not(.todo__button--active):hover {
-    color: hsl(235, 19%, 35%);
+body.light .todo__button:not(.todo__button--active):hover, body.light .todo__clear:hover {
+    color: hsl(235, 21%, 11%);
 }
