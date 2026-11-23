@@ -126,7 +126,6 @@ body {
     gap: 12px;
     border-bottom: 1px solid hsl(237, 14%, 26%);
     height: 64px;
-    cursor: pointer;
 }
 
 
@@ -236,6 +235,7 @@ background-origin: padding-box, border-box;
     margin-left: auto;
     opacity: 0;
     transition: opacity 0.3s;
+    cursor: pointer;
 }
 
 .todo__item:hover .todo__cross {
@@ -270,6 +270,7 @@ body.light .todo__input-wrapper {
 
 body.light .todo__list-wrapper {
     background-color: #fff;
+    box-shadow: 0 35px 50px -15px rgba(0, 0, 0, 0.15);
 }
 
 body.light .todo__checkbox-circle {
