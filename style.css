@@ -234,6 +234,8 @@ background-origin: padding-box, border-box;
 .todo__cross {
     margin-left: auto;
     opacity: 0;
+    width: 18px;
+    height: 18px;
     transition: opacity 0.3s;
     cursor: pointer;
 }
