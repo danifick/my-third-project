@@ -4,7 +4,12 @@ const todoCount = document.querySelector(".todo__count")
 const filterButtons = document.querySelectorAll(".todo__button")
 const todoClear = document.querySelector(".todo__clear")
 const todoTheme = document.querySelector(".todo__theme-toggle")
+const savedTheme = localStorage.getItem("theme")
 let currentFilter = "all"
+
+if (savedTheme === "light") {
+  document.body.classList.add("light")
+}
 
 todoInput.addEventListener("keydown" , function(event) {
 if (event.key === "Enter") {
